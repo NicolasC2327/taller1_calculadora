@@ -50,6 +50,8 @@
             btnRaiz = new Button();
             btnValorAbsoluto = new Button();
             btnPunto = new Button();
+            masmenosbtn = new Button();
+            btnigual = new Button();
             SuspendLayout();
             // 
             // txtResultado
@@ -74,6 +76,7 @@
             btnUno.TabIndex = 1;
             btnUno.Text = "1";
             btnUno.UseVisualStyleBackColor = true;
+            btnUno.Click += btnUno_Click_1;
             // 
             // btnDos
             // 
@@ -84,6 +87,7 @@
             btnDos.TabIndex = 2;
             btnDos.Text = "2";
             btnDos.UseVisualStyleBackColor = true;
+            btnDos.Click += btnDos_Click_1;
             // 
             // btnTres
             // 
@@ -94,6 +98,7 @@
             btnTres.TabIndex = 3;
             btnTres.Text = "3";
             btnTres.UseVisualStyleBackColor = true;
+            btnTres.Click += btnTres_Click_1;
             // 
             // btnSeis
             // 
@@ -104,6 +109,7 @@
             btnSeis.TabIndex = 6;
             btnSeis.Text = "6";
             btnSeis.UseVisualStyleBackColor = true;
+            btnSeis.Click += btnSeis_Click_1;
             // 
             // btnCinco
             // 
@@ -114,6 +120,7 @@
             btnCinco.TabIndex = 5;
             btnCinco.Text = "5";
             btnCinco.UseVisualStyleBackColor = true;
+            btnCinco.Click += btnCinco_Click_1;
             // 
             // btnCuatro
             // 
@@ -124,6 +131,7 @@
             btnCuatro.TabIndex = 4;
             btnCuatro.Text = "4";
             btnCuatro.UseVisualStyleBackColor = true;
+            btnCuatro.Click += btnCuatro_Click_1;
             // 
             // btnNueve
             // 
@@ -134,6 +142,7 @@
             btnNueve.TabIndex = 9;
             btnNueve.Text = "9";
             btnNueve.UseVisualStyleBackColor = true;
+            btnNueve.Click += btnNueve_Click_1;
             // 
             // btnOcho
             // 
@@ -144,6 +153,7 @@
             btnOcho.TabIndex = 8;
             btnOcho.Text = "8";
             btnOcho.UseVisualStyleBackColor = true;
+            btnOcho.Click += btnOcho_Click_1;
             // 
             // btnSiete
             // 
@@ -154,6 +164,7 @@
             btnSiete.TabIndex = 7;
             btnSiete.Text = "7";
             btnSiete.UseVisualStyleBackColor = true;
+            btnSiete.Click += btnSiete_Click_1;
             // 
             // btneliminaruno
             // 
@@ -186,6 +197,7 @@
             btnCero.TabIndex = 12;
             btnCero.Text = "0";
             btnCero.UseVisualStyleBackColor = true;
+            btnCero.Click += btnCero_Click;
             // 
             // btnSuma
             // 
@@ -271,18 +283,43 @@
             // btnPunto
             // 
             btnPunto.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            btnPunto.Location = new Point(159, 344);
+            btnPunto.Location = new Point(7, 344);
             btnPunto.Name = "btnPunto";
             btnPunto.Size = new Size(70, 70);
             btnPunto.TabIndex = 21;
             btnPunto.Text = ".";
             btnPunto.UseVisualStyleBackColor = true;
+            btnPunto.Click += btnPunto_Click_1;
+            // 
+            // masmenosbtn
+            // 
+            masmenosbtn.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            masmenosbtn.Location = new Point(159, 40);
+            masmenosbtn.Name = "masmenosbtn";
+            masmenosbtn.Size = new Size(70, 70);
+            masmenosbtn.TabIndex = 22;
+            masmenosbtn.Text = "+/-";
+            masmenosbtn.UseVisualStyleBackColor = true;
+            masmenosbtn.Click += masmenosbtn_Click;
+            // 
+            // btnigual
+            // 
+            btnigual.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            btnigual.Location = new Point(159, 344);
+            btnigual.Name = "btnigual";
+            btnigual.Size = new Size(70, 70);
+            btnigual.TabIndex = 23;
+            btnigual.Text = "=";
+            btnigual.UseVisualStyleBackColor = true;
+            btnigual.Click += button1_Click_1;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(447, 428);
+            Controls.Add(btnigual);
+            Controls.Add(masmenosbtn);
             Controls.Add(btnPunto);
             Controls.Add(btnValorAbsoluto);
             Controls.Add(btnRaiz);
@@ -336,5 +373,7 @@
         private Button btnRaiz;
         private Button btnValorAbsoluto;
         private Button btnPunto;
+        private Button masmenosbtn;
+        private Button btnigual;
     }
 }
