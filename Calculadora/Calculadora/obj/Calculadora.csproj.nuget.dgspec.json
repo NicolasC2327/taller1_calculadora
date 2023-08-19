@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\Documents\\talle_cal\\taller1_calculadora\\Calculadora\\Calculadora\\Calculadora.csproj": {}
   },
   "projects": {
@@ -12,12 +13,25 @@
         "projectPath": "D:\\Documents\\talle_cal\\taller1_calculadora\\Calculadora\\Calculadora\\Calculadora.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
         "outputPath": "D:\\Documents\\talle_cal\\taller1_calculadora\\Calculadora\\Calculadora\\obj\\",
+=======
+    "D:\\Nicolas\\Documents\\Repo\\taller1_calculadora\\Calculadora\\Calculadora\\Calculadora.csproj": {}
+  },
+  "projects": {
+    "D:\\Nicolas\\Documents\\Repo\\taller1_calculadora\\Calculadora\\Calculadora\\Calculadora.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Nicolas\\Documents\\Repo\\taller1_calculadora\\Calculadora\\Calculadora\\Calculadora.csproj",
+        "projectName": "Calculadora",
+        "projectPath": "D:\\Nicolas\\Documents\\Repo\\taller1_calculadora\\Calculadora\\Calculadora\\Calculadora.csproj",
+        "packagesPath": "C:\\Users\\Nicolas\\.nuget\\packages\\",
+        "outputPath": "D:\\Nicolas\\Documents\\Repo\\taller1_calculadora\\Calculadora\\Calculadora\\obj\\",
+>>>>>>> origin/Nicolas1
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nicolas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -62,7 +76,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
